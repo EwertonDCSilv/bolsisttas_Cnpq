@@ -1,0 +1,1 @@
+copy *.csv Bolsistas_Geral.csv
