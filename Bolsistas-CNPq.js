@@ -1,4 +1,4 @@
-// ==UserScript==
+//==UserScript==
 // @name         Bolsistas CNPq
 // @namespace    http://tampermonkey.net/
 // @version      1.01
@@ -11,62 +11,57 @@
 (function() {
     'use strict';
 
-    let content =document.getElementsByClassName('dados-perfil');
+    //__________ Declaração de varaiveis __________//
+    let content = document.getElementsByClassName('dados-perfil');  // Busca os todos os os objetos da classe dados-perfil,
+                                                                    // a qual estao os dados do Bolsista
     let size = content.length;
     let texto= {};
     let array=[];
-    let sizeJ = 0;
-    let flag = 0;
-
     let csv = 0;
-
     let vetor = [];
-    let matriz= [vetor];
-    let block=0;
+    let a_href = 0;
 
-
-    flag = content[0].innerText;
-    block = flag[0];
-
+    //__________ Percorrendo indices do objeto __________//
     for(let i=0;i<size;i++){
-        texto[i] = content[i].innerText;
-        array[i] = texto[i].replace(/\n/gi, '||');
-        array[i] = array[i] + '\n';
-        csv = csv+array[i];
-
+        texto[i] = content[i].innerText;            //Atribui ao vetor texto apenas os elementos textuais do indice atual do objeto
+        array[i] = texto[i].replace(/\n/gi, '||');  //Subtitui todos os caracteres \n por ||
+        array[i] = array[i] + '\n';                 //Concatena o vetor contendo os dados dos bolsitas com o caracter \n
+        csv = csv+array[i];                         //Realiza uma concatenacao consecutiva dos dados
     }
 
-    console.log(array);
+    //__________ Funcao que realiza a criacao do csv e seu downaload __________//
+    function downloadCSV(csv) {
 
-    function downloadCSV(args) {
-        var data, filename, link;
-        var csv = args;
+        let data, filename, link;
+        if (csv == null) return;//Verifica se o dado recebido e valido
 
-        if (csv == null) return;
+        let indice = document.getElementsByClassName('search-results')[0].innerText;//Declara um indice para o arquivo baseado na paginação dos resultados
+        indice = indice.replace(/\n/gi,'').replace(/\t/g, '').replace(" ","").replace('Mostrando','').replace('resultados','').replace(" - ","_");
+        indice = indice.split("de");
 
-        var indice = '01';
-        var name = 'Escolar' + indice + '.csv';
-        console.log(name);
+        let name = 'Bolsistas' + indice + '.csv';  //Concatena strings para criar o nome do arquiv .csv
         filename = name;
 
         if (!csv.match(/^data:text\/csv/i)) {
-            csv = 'data:text/csv;charset=utf-8,' + csv;
+            csv = 'data:text/csv;charset=utf-8,' + csv;//Cabecalho que define que o tipo do arquivo é csv e seu charset
         }
-        data = encodeURI(csv);
+        data = encodeURI(csv);//Criar caracteres de escape para criacao e uma URL
 
-        link = document.createElement('a');
-        link.setAttribute('href', data);
-        link.setAttribute('download', filename);
-        link.click();
+        link = document.createElement('a');         //Cria um elemento <a> no corpo da pagina
+        link.setAttribute('href', data);            //Define seu atributo href
+        link.setAttribute('download', filename);    /*
+                                                        *Permite que o arquivo seja baixado ao ser cliacado,
+                                                        *tambem define o nome do arqiov de saida
+                                                    */
+        link.click();                              //Simula o clique no elemento criado desencadeando o donwload do arquivo
     }
-    downloadCSV(csv);
 
+    downloadCSV(csv);//A função de Download e chamada
+ 
+    a_href = $('.lfr-pagination-buttons li a').eq(2).attr('href');//Busca a URL do botão proximo
 
-    var a_href = $('.lfr-pagination-buttons li a').eq(2).attr('href');
-    console.log(a_href);
-
-    setTimeout(function() {
+    setTimeout(function() {              //Funcao de Set time que retarda o redirecionamento para a proxima pagina permitindo o download correto
         window.location.href= a_href;
-    }, 3000);
+    }, 1500);
 
 })();
