@@ -4,18 +4,18 @@
 
 #### Para utilizar o Script voce deve instalar a extenção <a href="https://tampermonkey.net/" >Tampermonkey</a>
 
-#####Após a instalação:
+##### Após a instalação:
 
     1 - Baixe o arquivo Bolsistas-CNPq.js
    
     2 - Acesse o menu de configurações
-    ![p1](https://user-images.githubusercontent.com/28262885/42379211-680e8e4e-8100-11e8-8ce7-f1f35bcb56f7.png)
+    ![paso 1](https://user-images.githubusercontent.com/28262885/42379211-680e8e4e-8100-11e8-8ce7-f1f35bcb56f7.png)
 
     2 - Clique no menu lateral 
-    ![p2](https://user-images.githubusercontent.com/28262885/42379212-683290a0-8100-11e8-8654-0dffe1120b3c.png)
+    ![paso 2](https://user-images.githubusercontent.com/28262885/42379212-683290a0-8100-11e8-8654-0dffe1120b3c.png)
 
     3 - Acesse a opção de extensões 
-    ![p3](https://user-images.githubusercontent.com/28262885/42379213-6856ed38-8100-11e8-98d8-fcc019f27ed1.png)
+    ![paso 3](https://user-images.githubusercontent.com/28262885/42379213-6856ed38-8100-11e8-98d8-fcc019f27ed1.png)
 
     5 - Acesse a opção de detalhes da extensão Tampermonkey
     ![p4](https://user-images.githubusercontent.com/28262885/42379214-687db6ac-8100-11e8-8053-a2da3ed9f5c9.png)
