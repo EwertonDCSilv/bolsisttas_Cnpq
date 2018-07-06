@@ -1,11 +1,15 @@
 # bolsisttas_Cnpq
-Script para exportar lista de bolsistas de produtividade do Cnpq http://cnpq.br/bolsistas-vigentes/
+<html>
 
-Para utilizar o Script voce deve instalar a extenção <a href="https://tampermonkey.net/" >Tampermonkey</a>
+	</body>
+	<h2></b>Script para exportar lista de bolsistas de produtividade do Cnpq</b><a href="http://cnpq.br/bolsistas-vigentes/">http://cnpq.br/bolsistas-vigentes/</a></h2>
 
-Após a instalação:<br>
-    1 - Baixe o arquivo Bolsistas-CNPq.js<br>
-    2 - acesse o Dashboard da extenção <br>
+	<h2>Para utilizar o Script voce deve instalar a extenção <a href="https://tampermonkey.net/" >Tampermonkey</a></h2>
+
+	Após a instalação:<br>
+	<ul>
+    <li>1 - Baixe o arquivo Bolsistas-CNPq.js<br></li>
+    <li>2 - acesse o Dashboard da extenção <br></li>
     
     <img src="https://user-images.githubusercontent.com/28262885/42378459-c49c1350-80fd-11e8-94e3-b7617b463631.png">
     ![p2](https://user-images.githubusercontent.com/28262885/42378461-c4c7b5fa-80fd-11e8-89c1-bcb99a8c1d55.png)
@@ -19,5 +23,8 @@ Após a instalação:<br>
     ![p10](https://user-images.githubusercontent.com/28262885/42378469-c5cd7566-80fd-11e8-8319-5af5fb9ca1e0.png)
 
     
-    3 - dentro do Dashboard acesse o menu 'Utilidades'<br>
-    4 - no campo arquivo faça o upload do arquivo Bolsistas-CNPq.js<br>
+    <li>3 - dentro do Dashboard acesse o menu 'Utilidades'<br></li>
+    <li>4 - no campo arquivo faça o upload do arquivo Bolsistas-CNPq.js<br></li>
+
+	</body>
+</html>
