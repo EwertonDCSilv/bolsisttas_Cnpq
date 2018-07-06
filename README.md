@@ -7,7 +7,7 @@ Após a instalação:<br>
     1 - Baixe o arquivo Bolsistas-CNPq.js<br>
     2 - acesse o Dashboard da extenção <br>
     
-    ![p1](https://user-images.githubusercontent.com/28262885/42378459-c49c1350-80fd-11e8-94e3-b7617b463631.png)
+    <img src="https://user-images.githubusercontent.com/28262885/42378459-c49c1350-80fd-11e8-94e3-b7617b463631.png">
     ![p2](https://user-images.githubusercontent.com/28262885/42378461-c4c7b5fa-80fd-11e8-89c1-bcb99a8c1d55.png)
     ![p3](https://user-images.githubusercontent.com/28262885/42378462-c4e93b12-80fd-11e8-8621-dee7069c9cb4.png)
     ![p4](https://user-images.githubusercontent.com/28262885/42378463-c50e59ba-80fd-11e8-8171-16617c308312.png)
