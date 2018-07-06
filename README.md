@@ -9,7 +9,8 @@
     1 - Baixe o arquivo Bolsistas-CNPq.js
    
     2 - Acesse o menu de configurações
-    ![paso 1](https://user-images.githubusercontent.com/28262885/42379211-680e8e4e-8100-11e8-8ce7-f1f35bcb56f7.png)
+    ![GitHub Logo](https://user-images.githubusercontent.com/28262885/42379211-680e8e4e-8100-11e8-8ce7-f1f35bcb56f7.png)
+    Format: ![Alt Text](url)
 
     2 - Clique no menu lateral 
     ![paso 2](https://user-images.githubusercontent.com/28262885/42379212-683290a0-8100-11e8-8654-0dffe1120b3c.png)
