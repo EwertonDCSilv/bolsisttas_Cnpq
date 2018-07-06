@@ -4,12 +4,9 @@
 
 #### Para utilizar o Script voce deve instalar a extenção <a href="https://tampermonkey.net/" >Tampermonkey</a>
 
-![GitHub Logo](https://user-images.githubusercontent.com/28262885/42379211-680e8e4e-8100-11e8-8ce7-f1f35bcb56f7.png)
-Format: ![Alt Text](url)
+#####Após a instalação:
 
-Após a instalação:<br>
-
-    1 - Baixe o arquivo Bolsistas-CNPq.js<br>
+    1 - Baixe o arquivo Bolsistas-CNPq.js
    
     2 - Acesse o menu de configurações
     ![p1](https://user-images.githubusercontent.com/28262885/42379211-680e8e4e-8100-11e8-8ce7-f1f35bcb56f7.png)
