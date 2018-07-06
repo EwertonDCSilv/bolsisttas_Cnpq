@@ -1,8 +1,8 @@
-# bolsisttas_Cnpq
+# Bolsistas CNPq
 
-## Script para exportar lista de bolsistas de produtividade do Cnpq http://cnpq.br/bolsistas-vigentes/
+### Script para exportar lista de bolsistas de produtividade do Cnpq http://cnpq.br/bolsistas-vigentes/
 
-### Para utilizar o Script voce deve instalar a extenção <a href="https://tampermonkey.net/" >Tampermonkey</a>
+#### Para utilizar o Script voce deve instalar a extenção <a href="https://tampermonkey.net/" >Tampermonkey</a>
 
 Após a instalação:<br>
 
