@@ -9,32 +9,32 @@
 **1 - Baixe o arquivo Bolsistas-CNPq.js**
 <br>
 **2 - Acesse o menu de configurações**
-**![passo 1](https://user-images.githubusercontent.com/28262885/42379211-680e8e4e-8100-11e8-8ce7-f1f35bcb56f7.png)
+**![p1](https://user-images.githubusercontent.com/28262885/42700810-3be6f374-869b-11e8-9073-ebb06d5a2518.png)
 <br>
-**2 - Clique no menu lateral** 
-**![paso 2](https://user-images.githubusercontent.com/28262885/42379212-683290a0-8100-11e8-8654-0dffe1120b3c.png)
+**3 - Clique no menu lateral** 
+**![p2](https://user-images.githubusercontent.com/28262885/42700811-3c084150-869b-11e8-90d8-96a0301d9e73.png)
 <br>
-**3 - Acesse a opção de extensões** 
-**![paso 3](https://user-images.githubusercontent.com/28262885/42379213-6856ed38-8100-11e8-98d8-fcc019f27ed1.png)
+**4 - Acesse a opção de extensões** 
+**![p3](https://user-images.githubusercontent.com/28262885/42700812-3c24e4a4-869b-11e8-890e-e84f90b47eb4.png)
 <br>
 **5 - Acesse a opção de detalhes da extensão Tampermonkey**
-**![p4](https://user-images.githubusercontent.com/28262885/42379214-687db6ac-8100-11e8-8053-a2da3ed9f5c9.png)
+**![p4](https://user-images.githubusercontent.com/28262885/42700813-3c55b8ae-869b-11e8-9c54-d9449a1dcb9d.png)
 <br>
-**6 - Dentro da opção de detalhes acesse opções da Extensão**
-**![p5](https://user-images.githubusercontent.com/28262885/42379215-689d95d0-8100-11e8-8288-a04e7cd34d2b.png)
+**5 - Dentro da opção de detalhes acesse opções da Extensão**
+**![p5](https://user-images.githubusercontent.com/28262885/42700814-3c72ee88-869b-11e8-9e77-28d12541a44d.png)
 <br>
-**7 - Clique no + para adicionar um novo script**
-**![p6](https://user-images.githubusercontent.com/28262885/42379216-68bff5bc-8100-11e8-8c9d-5ef6af9502b0.png)
+**6 - Clique no + para adicionar um novo script**
+**![p6](https://user-images.githubusercontent.com/28262885/42700815-3c964360-869b-11e8-8e5e-334452ef1d24.png)
 <br>
-**8 - Um script padrão é exibido**
-**![p7](https://user-images.githubusercontent.com/28262885/42379217-68e47c8e-8100-11e8-94b4-90ec317dbb02.png)
+**7 - Um script padrão é exibido**
+**![p7](https://user-images.githubusercontent.com/28262885/42700806-3b6bb204-869b-11e8-91c0-44f20adbab75.png)
 <br>
-**9 - Remova o script padrão**
-**![p8](https://user-images.githubusercontent.com/28262885/42379219-69067000-8100-11e8-886b-03bd50fa1518.png)
+**8 - Remova o script padrão**
+**![p8](https://user-images.githubusercontent.com/28262885/42700807-3b89c9c4-869b-11e8-8a50-df828fda1f67.png)
 <br>
-**10 - Cole o código do arquivo https://github.com/EwertonDCSilv/bolsisttas_Cnpq/blob/master/Bolsistas-CNPq.js**
-**![p9](https://user-images.githubusercontent.com/28262885/42379220-6924f930-8100-11e8-82ca-b2b101c09fda.png)
+**9 - Cole o código do arquivo https://github.com/EwertonDCSilv/bolsisttas_Cnpq/blob/master/Bolsistas-CNPq.js**
+**![p9](https://user-images.githubusercontent.com/28262885/42700808-3ba79cec-869b-11e8-83ac-e94d27aa20ec.png)
 <br>
-**11 - Verifique se a opção Bolsistas CNPq foi criada**
-**![p10](https://user-images.githubusercontent.com/28262885/42379221-6942be34-8100-11e8-9772-182d97362d26.png)
+**10 - Verifique se a opção Bolsistas CNPq foi criada**
+**![p10](https://user-images.githubusercontent.com/28262885/42700809-3bc88c22-869b-11e8-9217-692b7933dd02.png)
 <br>
