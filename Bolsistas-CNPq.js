@@ -4,6 +4,7 @@
 // @version      1.01
 // @description  Criado para baixar a listas de Bolsitas de Produtividade do CNPq
 // @author       Ewerton Silva Santos - ewerton_dc@hotmail.com.br - Universidade Federal de Minas Gerais
+// @match        http://cnpq.br/bolsistas-vigentes*
 // @match        http://cnpq.br/bolsistas-vigentes?*
 // @grant        none
 // ==/UserScript== https://code.jquery.com/jquery-3.3.1.min.js
@@ -53,11 +54,12 @@
                                                         *Permite que o arquivo seja baixado ao ser cliacado,
                                                         *tambem define o nome do arqiov de saida
                                                     */
+        $('body').append(link);
         link.click();                              //Simula o clique no elemento criado desencadeando o donwload do arquivo
     }
 
     downloadCSV(csv);//A função de Download e chamada
- 
+
     a_href = $('.lfr-pagination-buttons li a').eq(2).attr('href');//Busca a URL do botão proximo
 
     setTimeout(function() {              //Funcao de Set time que retarda o redirecionamento para a proxima pagina permitindo o download correto
