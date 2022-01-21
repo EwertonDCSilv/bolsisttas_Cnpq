@@ -7,7 +7,7 @@
 // @match        http://cnpq.br/bolsistas-vigentes*
 // @match        http://cnpq.br/bolsistas-vigentes?*
 // @match        https://memoria.cnpq.br/bolsistas-vigentes*
-// @match        https://memoria.cnpq.br/bolsistas-vigentes?*
+// @match        http://memoria2.cnpq.br/bolsistas-vigentes*
 // @require      http://code.jquery.com/jquery-3.3.1.min.js
 // @grant        none
 // ==/UserScript== https://code.jquery.com/jquery-3.3.1.min.js
