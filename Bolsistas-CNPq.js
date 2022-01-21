@@ -6,6 +6,8 @@
 // @author       Ewerton Silva Santos - ewerton_dc@hotmail.com.br - Universidade Federal de Minas Gerais
 // @match        http://cnpq.br/bolsistas-vigentes*
 // @match        http://cnpq.br/bolsistas-vigentes?*
+// @match        https://memoria.cnpq.br/bolsistas-vigentes*
+// @match        https://memoria.cnpq.br/bolsistas-vigentes?*
 // @require      http://code.jquery.com/jquery-3.3.1.min.js
 // @grant        none
 // ==/UserScript== https://code.jquery.com/jquery-3.3.1.min.js
